@@ -1,0 +1,26 @@
+.Main {
+    margin: 60px 0 0 20px;
+}
+
+.Main h1 {
+    margin-bottom: 20px;
+}
+
+.Main ul {
+    margin-left: 20px;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+.Main ul li {
+    margin-top: 10px;
+}
+
+.Main ul li::before{
+    content: "\2022";
+    margin-right: 10px;
+    color: #00ccff;
+    font-size: 20px;
+}
+

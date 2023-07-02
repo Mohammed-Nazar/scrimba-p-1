@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ a{
+    text-decoration: none;
+ }
+body {
+    background-color: #282D35;
+    color: white;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #21222A;
+}
+
+.navBar span img {
+    width: 50px;
+    margin: 10px;
+}
+
+.navBar span h1 {
+    position: relative;
+    bottom: 35%;
+    left: 5px;
+    display: inline;
+    color: #00ccff;
+}
+
+.navBar h4 {
+    text-align: center;
+    margin: 20px;
+}
